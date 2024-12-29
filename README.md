@@ -1,0 +1,77 @@
+# Command Reference Guide
+
+## Package Management
+- `sudo apt update && sudo apt upgrade -y`: Updates and upgrades system packages.
+- `apt install git`: Installs Git.
+- `sudo apt install git -y`: Installs Git with automatic "yes" confirmation.
+- `sudo apt install nodejs`: Installs Node.js.
+- `sudo apt install python3`: Installs Python 3.
+- `sudo apt install default-jdk -y`: Installs Java Development Kit (JDK).
+- `sudo apt install xdg-utils`: Installs tools for opening files.
+- `sudo apt install mailcap`: Installs tools for managing MIME types.
+- `sudo apt install finger`: Installs the finger user info tool.
+- `sudo apt install plocate`: Installs the locate tool for finding files.
+- `sudo apt install tldr`: Installs a simpler command reference tool.
+
+---
+
+## System and Navigation
+- `pwd`: Displays the current directory path.
+- `ls -la`: Lists all files and directories, with details.
+- `ls -al ~/.ssh`: Lists all files in the `.ssh` directory.
+- `clear`: Clears the terminal screen.
+- `mkdir homework`: Creates a directory named "homework."
+- `cd ..`: Moves up one directory.
+- `cd ~`: Moves to the home directory.
+- `pwd`: Prints the current directory.
+- `rmdir test02`: Removes the directory named "test02."
+
+---
+
+## Git and Version Control
+- `git init`: Initializes a new Git repository.
+- `git status`: Displays the status of the repository.
+- `git add .`: Adds all changes to the staging area.
+- `git commit -m "message"`: Creates a commit with a message.
+- `git remote add origin URL`: Links the repository to a remote URL.
+- `git push -u origin master`: Pushes commits to the "master" branch on the remote.
+- `git branch -M master`: Renames the branch to "master."
+- `git branch -M main`: Renames the branch to "main."
+
+---
+
+## SSH and Keys
+- `ssh-keygen -t ed25519 -C "email"`: Creates a new SSH key.
+- `eval "$(ssh-agent -s)"`: Starts the SSH agent.
+- `ssh-add ~/.ssh/id_ed25519`: Adds the SSH key to the agent.
+- `ssh -T git@github.com`: Tests the connection to GitHub.
+
+---
+
+## File Operations
+- `touch hello.py`: Creates an empty file named `hello.py`.
+- `open hello.py`: Opens the `hello.py` file.
+- `nano hello.py`: Edits the `hello.py` file using the Nano editor.
+- `echo hello >> file.py`: Appends "hello" to `file.py`.
+- `cat hello.py`: Displays the contents of `hello.py`.
+
+---
+
+## Miscellaneous
+- `man ls`: Shows the manual for the `ls` command.
+- `htop`: Displays running processes (interactive task manager).
+- `top`: Displays running processes.
+- `df`: Displays disk usage.
+- `whoami`: Shows the current logged-in user.
+- `finger isrer`: Displays information about the user "isrer."
+- `locate hello.py`: Finds the location of the `hello.py` file.
+
+---
+
+## Others
+- `history`: Lists all previous commands used in the session.
+- `touch README.md`: Creates an empty file named `README.md`.
+
+---
+
+Let me know if you'd like further clarification or additions!
