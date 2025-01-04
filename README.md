@@ -13,7 +13,7 @@
 - `sudo apt install plocate`: Installs the locate tool for finding files.
 - `sudo apt install tldr`: Installs a simpler command reference tool.
 
----
+--------------
 
 ## System and Navigation
 - `pwd`: Displays the current directory path.
