@@ -100,9 +100,12 @@ back_end=["Node","Express", "MongoDB"]
 full_stack=front_end+back_end
 print(full_stack)
 
-# 27. After joining the lists in question 26. Copy the joined list and assign it to a variable full_stack
+# 27. After joining the lists in question 26. Copy the joined list and assign it to a variable full_stack, then insert Python and SQL after Redux.
 full_stack_copy=full_stack.copy()
 print(full_stack_copy)
+full_stack.insert(5,"Python")
+full_stack.insert(6,"SQL")
+print(full_stack)
 
 
 
