@@ -36,9 +36,20 @@ print(student["skills"])
 # 6. Modify the skills values by adding one or two skills
 student["skills"].append("HTML")
 student["skills"].append("CSS")
+student["skills"].extend(["JavaScript", "React"])
 print(student["skills"])
 
 # 7. Get the dictionary keys as a list
 print(student.keys())
 
 # 8. Get the dictionary values as a list
+print(student.values())
+
+# 9. Change the dictionary to a list of tuples using items() method
+print(student.items())
+
+# 10. Delete one of the items in the dictionary
+student.pop("address")
+
+# 11. Delete one of the dictionaries
+del student
